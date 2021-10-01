@@ -43,6 +43,9 @@ git push origin <branch_name>
 ```
 7. Create a PR by going to the repo's page and clicking the "New pull request" button. Please make sure your PR title and description are descriptive and self explanatory.
 
+## File structure
+Please maintain the file structure of the repository. Each module has to be in a folder named after the module itself. The testbench for the module should also be located in the same folder. The testbench will be named after the module with the suffix "_tb". There is no need to push the vcd dumps or compiled binaries. When using include statements to include other modules from the library, make sure you use the file path with respect to the repo and not your local paths.
+
 # PR guidelines
 1. Codes must be general purpose and re-usable (We do not want codes specific to your assignment xD).
 1. Documentation PRs are acceptable.
