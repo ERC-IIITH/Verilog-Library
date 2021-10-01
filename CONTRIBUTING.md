@@ -52,7 +52,7 @@ Please maintain the file structure of the repository. Each module has to be in a
 1. Merging of PRs will be at maintainer's discretion.
 
 ## Hacktoberfest specific guidelines
-1. The PRs must follow the hacktober fest guidelines which can be found [here]().
+1. The PRs must follow the hacktober fest guidelines which can be found [here](https://hacktoberfest.digitalocean.com/resources/participation).
 1. Any valid PR will be hacktoberfest-approved but may not necessarily be merged into the repo.
 1. Do not submit PRs for duplicates of modules that are already present in the repo. You can however make changes to existing modules.
 1. Do not copy codes from other repositories or websites. Your PR will be marked as invalid if you do so.
