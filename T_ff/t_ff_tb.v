@@ -1,5 +1,5 @@
 `include "t_ff.v"
-module tb();
+module t_ff_tb();
   reg clk = 1'b0, t, reset;
   wire q, qbar;
   integer i;
