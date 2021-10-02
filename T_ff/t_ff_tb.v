@@ -21,7 +21,7 @@ module t_ff_tb();
   initial begin
     $monitor("Reset = %0b, T = %0b , Q = %0b and Qbar = %0b", reset, t, q, qbar);
     $dumpfile("test.vcd");
-    $dumpvars(0,tb);
+    $dumpvars(0,t_ff_tb);
     #150 $finish;
   end
 endmodule
