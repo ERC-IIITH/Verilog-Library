@@ -8,9 +8,9 @@ always @(posedge clk or posedge reset) begin
         q <= 1'b0;
         qbar <= 1'b1;
     end
-    else begin
-        q <= ~t;
-        qbar <= t;
+    else if (t) begin
+        q <= ~q;
+        qbar <= ~qbar;
     end
 end
 endmodule   
