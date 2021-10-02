@@ -1,12 +1,10 @@
-module XOR(a, b, o, d);
+module xor_rtl(a, b, o);
 
     input a, b;
-    output reg o, d;
+    output reg o;
 
     always @(a, b)
     begin
-        d = 0;
         o = a^b;
-        d = 1;
     end
 endmodule

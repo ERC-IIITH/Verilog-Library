@@ -1,4 +1,4 @@
-module XOR_struct(a, b, o);
+module xor_struct(a, b, o);
 
 input a, b;
 output o;
