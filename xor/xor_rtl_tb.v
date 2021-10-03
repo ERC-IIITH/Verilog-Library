@@ -6,7 +6,7 @@ module xor_rtl_tb();
     xor_rtl uut(.a(a), .b(b), .o(o));
 
     initial begin
-        $dumpfile("xor2.vcd");
+        $dumpfile("xor_rtl.vcd");
         $dumpvars(0, xor_rtl_tb);
         a = 1'b0;       //Number of bits'Binary system Value
         b = 1'b0;
