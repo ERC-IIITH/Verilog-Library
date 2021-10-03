@@ -6,7 +6,7 @@ module xor_struct_tb();
     xor_struct uut(.a(a), .b(b), .o(o));
 
     initial begin
-        $dumpfile("xor1.vcd");
+        $dumpfile("xor_struct.vcd");
         $dumpvars(0, xor_struct_tb);
         a = 1'b0;       //Number of bits'Binary system Value
         b = 1'b0;
