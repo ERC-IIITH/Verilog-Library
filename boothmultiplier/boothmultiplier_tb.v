@@ -1,5 +1,5 @@
 //testbench
-`include "boothMultiplier.v"
+`include "boothmultiplier.v"
 
 module booth_mul_tb();
     reg signed [3:0] a, b;
