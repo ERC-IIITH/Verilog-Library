@@ -9,8 +9,8 @@ module not(p , q);
     output q; 
     assign p = ~q; 
 endmodule
-
-module DFF_structural(q , qbar , d , clk);
+//using only strucutral modelling
+module dff_structural(q , qbar , d , clk);
     input d , clk; 
     output q, qbar; 
     not g(dbar , d); 

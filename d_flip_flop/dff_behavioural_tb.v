@@ -1,4 +1,4 @@
-module DFF_tb;
+module dff_tb;
     reg d , clk , reset;
     wire q;
     DFF_tb DUT(
@@ -8,10 +8,6 @@ module DFF_tb;
     initial
         begin
             clk = 1'b0;
-            forever #5 clk = ~clk;
-        end
-    initial 
-        begin clk = 1'b0;
             forever #5 clk = ~clk;
         end
     initial 
