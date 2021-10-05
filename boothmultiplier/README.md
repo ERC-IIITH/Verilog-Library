@@ -13,4 +13,4 @@ Booth's multiplication algorithm is an algorithm which multiplies 2 signed integ
 * The shifting is the arithmetic right shift operation where the left most bit namely, An-1 is not only shifted into An-2 but also remains in An-1.
 * This is to preserve the sign of the number in A and Q.
 * The result of the multiplication will appear in the A and Q.
-  ![alt text](http://vlabs.iitkgp.ernet.in/coa/images/flow2.png)
+* ![alt text](http://vlabs.iitkgp.ernet.in/coa/images/flow2.png)
