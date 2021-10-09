@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+
 
 module demux1x2_rtl
 ( output reg out0,out1,
