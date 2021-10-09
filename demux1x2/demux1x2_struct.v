@@ -1,5 +1,4 @@
 
-
 module demux1x2_struct(out0,out1,s,in);
 
 output out0,out1;
