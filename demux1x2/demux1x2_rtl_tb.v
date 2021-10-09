@@ -1,5 +1,3 @@
-
-
 module demux1x2_rtl_tb;
 
 reg s,in;
