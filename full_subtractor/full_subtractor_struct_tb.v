@@ -1,5 +1,3 @@
-
-
 module full_subtractor_struct_tb;
 
 reg a,b,cin;
