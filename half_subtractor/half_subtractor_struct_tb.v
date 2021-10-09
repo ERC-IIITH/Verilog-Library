@@ -1,5 +1,3 @@
-
-
 module half_subtractor_struct_tb;
 
 reg  a,b;
