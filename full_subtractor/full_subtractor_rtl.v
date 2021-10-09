@@ -1,5 +1,3 @@
-
-
 module full_subtractor_rtl
 ( output reg cout,diff,
 	input a,b,cin);
@@ -13,4 +11,3 @@ module full_subtractor_rtl
 	
 	
 	endmodule
-	
