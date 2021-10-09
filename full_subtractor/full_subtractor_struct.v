@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+
 
 `include "../half_subtractor/half_subtractor_struct.v"
 
