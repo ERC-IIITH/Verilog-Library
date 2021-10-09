@@ -1,5 +1,3 @@
-
-
 `include "../half_subtractor/half_subtractor_struct.v"
 
 module full_subtractor_struct
@@ -13,4 +11,3 @@ module full_subtractor_struct
 	or o1(cout,w3,w2);
 	
 	endmodule
-	
