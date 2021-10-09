@@ -1,4 +1,3 @@
-`timescale 1ns/1ps
 
 module half_adder_struct
 ( output cout,sum,
