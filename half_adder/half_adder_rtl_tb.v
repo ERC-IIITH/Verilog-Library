@@ -1,5 +1,3 @@
-
-
 module half_adder_rtl_tb;
 
 reg  a,b;
