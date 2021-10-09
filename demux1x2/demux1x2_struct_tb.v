@@ -1,5 +1,3 @@
-
-
 module demux1x2_struct_tb;
 
 reg s,in;
