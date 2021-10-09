@@ -1,5 +1,3 @@
-
-
 module half_adder_struct_tb;
 
 reg  a,b;
