@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+
 
 module demux1x2_struct_tb;
 
