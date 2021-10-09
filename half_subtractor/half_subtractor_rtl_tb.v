@@ -1,5 +1,3 @@
-
-
 module half_subtractor_rtl_tb;
 
 reg  a,b;
