@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+
 
 module full_subtractor_rtl
 ( output reg cout,diff,
