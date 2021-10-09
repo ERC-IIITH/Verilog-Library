@@ -6,6 +6,6 @@ The testbenches for each folder tests all the modellings implement and follows t
 
 All the modules are succesfully simulated using Intel Quartus Prime and ModelSim-Altera. 
 
-TODO
--[ ] Carry select adder to be implemented in Dataflow and Behavioural Modelling
--[ ] 64 bit implementations of the following.
+###TODO
+- [ ] Carry select adder to be implemented in Dataflow and Behavioural Modelling
+- [ ] 64 bit implementations of the following.
