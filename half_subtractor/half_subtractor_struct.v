@@ -1,5 +1,3 @@
-
-
 module half_subtractor_struct
 ( output cout,diff,
   input  a,b);
