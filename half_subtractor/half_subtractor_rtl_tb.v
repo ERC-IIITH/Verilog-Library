@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+
 
 module half_subtractor_rtl_tb;
 
