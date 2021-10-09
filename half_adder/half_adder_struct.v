@@ -1,4 +1,3 @@
-
 module half_adder_struct
 ( output cout,sum,
   input a,b
