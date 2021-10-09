@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+
 
 module half_adder_rtl_tb;
 
