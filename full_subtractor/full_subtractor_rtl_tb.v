@@ -1,5 +1,3 @@
-
-
 module full_subtractor_rtl_tb;
 
 reg a,b,cin;
