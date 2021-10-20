@@ -14,7 +14,9 @@ module decade_counter_tb();
         #60 $finish;       //global reset, # is time delay (in nanoseconds)
     end
     
-    always #2 clk=~clk;    //Clock input
+    always #1 clk=~clk;    //Clock input
+    always #25 en=~en;	   //Enable input
+    
     initial begin
         $monitor("time = %0t, count = %d", $time, cnt);
     end
