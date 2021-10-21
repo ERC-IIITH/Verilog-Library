@@ -1,4 +1,3 @@
-
 module nand_rtl(a, b, o);
 
     input a, b;
@@ -6,6 +5,6 @@ module nand_rtl(a, b, o);
 
     always @(a, b)
     begin
-        o = ~(a*b);
+        o = ~(a&b);
     end
 endmodule
